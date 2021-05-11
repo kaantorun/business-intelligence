@@ -1,0 +1,264 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>EESBIAS</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>WE7FTaYP2lFCE7cSisW55Q==06.06.2011 10:10:0127.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DsWarehouse</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>pbkL/bSFamVCBPWy7g5EMQ==11.07.2011 10:33:3227.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DSV_BIWarehouse</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WhTtywlXlNow8sRxixkQjQ==05.04.2011 17:11:1027.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimBranch</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pTkgbsLMOtKKEb2a4Uk7iQ==22.10.2010 14:33:4327.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimBuilding</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nMhuWoHjYscTw5v8pCfPVA==22.10.2010 14:35:3927.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimDate</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VGXVbpq7m8vMEVZACWUQOg==22.10.2010 14:42:3027.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimDatePeriod</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wiyySQOGqjgxsGNKZ+6UJQ==22.10.2010 14:41:4527.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimDiagnosis</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>4aC3SSPQHZ42G5mTrzz1Hw==22.10.2010 14:35:1127.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimGender</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>H87dqN1J9mvKM1DAV387yA==22.10.2010 14:33:5127.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimInstitution</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qtcPfUvPR+RO5M9vLbgDaQ==22.10.2010 14:34:0427.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimInstitutionType</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>EEI4oxcDcLZjsffNiinS5g==22.10.2010 14:34:1027.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimInsuranceType</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>DL/6hMNBgYh8EgXWoHqBNQ==22.10.2010 14:35:1927.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimInvoice</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+TDVRZ0OU0nQrJq1guOI7g==22.10.2010 14:35:3227.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimInvoiceStatus</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>IV2fwjMJtqPdA1REPJIh/A==22.10.2010 14:35:2527.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimInvoiceTerm</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>q42LKKcayv1PAFtU5Wtyrw==18.12.2009 13:17:3527.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimNationality</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fAV7bA4J8x2L8BlMfKrOuw==22.10.2010 14:41:1227.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimOperationClass</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>lbqEfkWl6dJOxlHdY1TohQ==11.11.2010 07:59:2827.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimOperationStatus</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>c0r13d39KAwzgdAiMBkwSw==22.10.2010 14:41:2027.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimOperationType</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>HjmgoGv7JWSwJ5pc3IsJtA==22.10.2010 14:35:0427.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimPatient</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1Kyaj6pQPOPv7MVNr0EeMg==22.10.2010 14:34:5727.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimPerson</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>r9XAcyDlSVy6uJn2hEiulw==22.10.2010 14:41:5327.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimPersonnel</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>xYK1HL5dVw5XIxEU/6+gAg==22.10.2010 14:42:1227.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimPersonnelDuty</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>tl0hTD3OOUZNqTl5PuFBSg==22.10.2010 14:42:4127.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimProvisionPeriod</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>8aLXOe4AU/VVHe5XerB58w==16.06.2011 10:59:1627.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimReception</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>K7twM3MnM3pheEdydZIa7w==16.06.2011 10:58:5127.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>v Dim Reception Invoice Status</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>zQYTdyiVMUgr+o57ZD6mzg==22.10.2010 14:34:1627.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimReceptionType</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QIWQeWh1CNZitFsig075Ow==19.04.2011 21:05:1327.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimTransaction</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>k1rgpbgXR9O3ewjIw7xYyA==27.10.2010 20:33:2627.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimTransIncludeType</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>zYQsEz5Kw+Q1bEqkuzhb1Q==22.10.2010 14:41:0427.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimTransState</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1za3DuerwhuvfxJ9WfNKgQ==22.10.2010 14:41:3627.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimTransactionType</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1gie/BCip1dAvoJN4E2eVg==22.10.2010 09:16:3727.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimUnit</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>MvmTrttOTE7QB8EoJJ7Hdw==22.10.2010 09:17:1427.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>DimUnitType</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>MDWsn+oAn+Y9bECDsfLbKA==11.07.2011 18:09:5427.06.2011 21:16:57vtarzR4euh9914OcWobGdA==11.07.2011 10:57:1427.06.2011 21:16:57</TimeStamp>
+        <ID>
+          <String>EESBICube</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>vNtEBMb5ALQDIxO9FKOVvA==17.12.2009 16:46:3727.06.2011 21:16:57</TimeStamp>
+      <ID>
+        <String>EESBIAS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2011-07-11T18:37:44Z</LastDeployed>
+</DeploymentSnapshot>

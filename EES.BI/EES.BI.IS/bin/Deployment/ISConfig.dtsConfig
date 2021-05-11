@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+	<DTSConfigurationHeading>
+		<DTSConfigurationFileInfo GeneratedBy="EESBI\Administrator" GeneratedFromPackageName="DimNationality" GeneratedFromPackageID="{60CE8329-7EB9-46FA-B379-E18DDD6236CB}" GeneratedDate="13.11.2009 14:21:35"/>
+	</DTSConfigurationHeading>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DS_Hospital].Properties[ConnectionString]" ValueType="String">
+		<ConfiguredValue>Data Source=EESBI;User ID=sa;Password=ees;Initial Catalog=Hospital;Provider=SQLNCLI10.1;</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DS_SaglikNet].Properties[ConnectionString]" ValueType="String">
+		<ConfiguredValue>Data Source=EESBI;User ID=sa;Password=ees;Initial Catalog=SaglikNET;Provider=SQLNCLI10.1;Persist Security Info=True;</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Connections[DS_Warehouse].Properties[ConnectionString]" ValueType="String">
+		<ConfiguredValue>Data Source=EESBI;User ID=sa;Password=ees;Initial Catalog=BIWarehouse;Provider=SQLNCLI10.1;Persist Security Info=True;</ConfiguredValue>
+	</Configuration>
+</DTSConfiguration>

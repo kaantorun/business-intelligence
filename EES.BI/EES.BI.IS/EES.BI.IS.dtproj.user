@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataTransformationsUserConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <AssessmentRuleSuppressionSetting />
+        <UseWinAuth>false</UseWinAuth>
+        <WinAuthUserName />
+        <WinAuthDomain />
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>DsWarehouse</Id>
+            <Name>DsWarehouse</Name>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>DsHospital</Id>
+            <Name>DsHospital</Name>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>{F7BEFC4C-E820-4AF8-B5D5-E020D9DB9858}</Id>
+            <Name>{F7BEFC4C-E820-4AF8-B5D5-E020D9DB9858}</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8i3cJVK2GkWRzXicrmb1qwAAAABOAAAAewBGADcAQgBFAEYAQwA0AEMALQBFADgAMgAwAC0ANABBAEYAOAAtAEIANQBEADUALQBFADAAMgAwAEQAOQBEAEIAOQA4ADUAOAB9AAAAA2YAAKgAAAAQAAAAcmGJ4Sap5B0E5eTsym+QWgAAAAAEgAAAoAAAABAAAAAyBPDdpWQBw44C4mfh5PjxCAAAAH9Scy7dLb+mFAAAAJD+2bHCCBmIZ8Jhr0+IC3zS+lbR</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>DS_SaglikNet</Id>
+            <Name>DS_SaglikNet</Name>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>DsWarehouse</Id>
+            <Name>DsWarehouse</Name>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>DsHospital</Id>
+            <Name>DsHospital</Name>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>{F7BEFC4C-E820-4AF8-B5D5-E020D9DB9858}</Id>
+            <Name>{F7BEFC4C-E820-4AF8-B5D5-E020D9DB9858}</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8i3cJVK2GkWRzXicrmb1qwAAAABOAAAAewBGADcAQgBFAEYAQwA0AEMALQBFADgAMgAwAC0ANABBAEYAOAAtAEIANQBEADUALQBFADAAMgAwAEQAOQBEAEIAOQA4ADUAOAB9AAAAA2YAAKgAAAAQAAAAXMFcFJnjCJv44QfVRds58QAAAAAEgAAAoAAAABAAAAAILMM/bAQwoT9KMFMZGkBkCAAAADHqSj9n0HY5FAAAAA7l3uY60nqPM1SCnI2bYTLNFXWc</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>DS_SaglikNet</Id>
+            <Name>DS_SaglikNet</Name>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <OfflineMode>false</OfflineMode>
+        <ProgressReporting>true</ProgressReporting>
+        <ParameterConfigurationSensitiveValues />
+      </Options>
+    </Configuration>
+  </Configurations>
+</DataTransformationsUserConfiguration>
